@@ -226,10 +226,6 @@ def draw_flower(screen,x,y):
     r = 8
     c = 6
     pygame.draw.ellipse(screen,pink,[x-r,y-r,2*r,2*r])
-    pygame.draw.ellipse(screen,pink,[x-r,y-r,2*r,2*r])
-    pygame.draw.ellipse(screen,pink,[x-r,y-r,2*r,2*r])
-    pygame.draw.ellipse(screen,pink,[x-r,y-r,2*r,2*r])
-
     pygame.draw.line(screen,white,[x-c,y],[x+c,y],4)
     pygame.draw.line(screen,white,[x,y-c],[x,y+c],4)
 
